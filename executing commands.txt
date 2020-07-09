@@ -5,3 +5,11 @@ python encode_faces.py --dataset dataset --encodings encodings.pickle
 
 2)After gnerating pickle run the below command by giving name of ur input image in examples folder
 python recognize_faces_image.py --encodings encodings.pickle \	--image examples/inputimage.jpg
+
+
+
+
+
+3)To see the video
+
+python recognize_faces_video.py --encodings encodings.pickle --output output/webcam_face_recognition_output.avi --display 1
