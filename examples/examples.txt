@@ -1,1 +1,1 @@
-keep pic of individual persons with indiviual folders(folder name is person name) to train the model
+keep pic of individual persons to test image
