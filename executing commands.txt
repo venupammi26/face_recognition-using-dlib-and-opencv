@@ -1,0 +1,7 @@
+
+
+1)Runt  encode_faces.py file from terminal using below command to generate pickle file
+python encode_faces.py --dataset dataset --encodings encodings.pickle
+
+2)After gnerating pickle run the below command by giving name of ur input image in examples folder
+python recognize_faces_image.py --encodings encodings.pickle \	--image examples/inputimage.jpg
